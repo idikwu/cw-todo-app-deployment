@@ -1,9 +1,9 @@
 variable "prefix" {
-  default = "jenkins"
+  default = "jenkins-vm"
 }
 
 variable "ssh_key_name" {
-  default = "demoKP"
+  default = "demokey"
 }
 
 variable "ssh_private_key_path" {
